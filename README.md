@@ -7,5 +7,5 @@ Aqua's updated distribution program
 Execute the following command
 
 ```bash
-npm i git+https://github.com/e6nlaq/aqua-update.git -g
+sudo npm i git+https://github.com/e6nlaq/aqua-update.git -g
 ```

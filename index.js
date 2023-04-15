@@ -1,7 +1,4 @@
 
-// Aqua Update
-// (C) 2023 e6nlaq
-
 const fetch = require('node-fetch');
 const { execSync } = require('child_process');
 const fs = require('fs');
@@ -36,7 +33,6 @@ async function main() {
 	let tag = "";
 	let version = 0.0;
 
-	// 今のバージョン取得
 	let nowstd = execSync("aqua --version");
 	let nowver = parseFloat(nowstd.toString());
 
