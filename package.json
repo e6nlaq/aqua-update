@@ -1,0 +1,28 @@
+{
+  "name": "aqua-update",
+  "version": "1.0.0",
+  "description": "Aqua's updated distribution program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "aqua-update": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e6nlaq/aqua-update.git"
+  },
+  "keywords": [
+    "aqua"
+  ],
+  "author": "e6nlaq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e6nlaq/aqua-update/issues"
+  },
+  "homepage": "https://github.com/e6nlaq/aqua-update#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.9"
+  }
+}
